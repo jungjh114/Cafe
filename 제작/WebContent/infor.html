@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+<style>
+table {
+	font-family: "굴림";
+	font-size: 12px;
+	border: 1px solid;
+}
+
+th {
+	background: #ccc;
+	padding: 7px;
+}
+
+td {
+	padding: 7px;
+}
+</style>
+</head>
+<body>
+	<div align="center">
+		<form>
+			<table width="800">
+				<tr>
+					<th width="200" align="left">아이디</th>
+					<td><input type="text" size="20"> * 4~12자의 영문과 숫자의 조합</td>
+				</tr>
+				<tr>
+					<th align="left">비밀번호</th>
+					<td><input type="password" size="20"> * 4~12자의 영문과 숫자의
+						조합</td>
+				</tr>
+				<tr>
+					<th align="left">이름</th>
+					<td><input type="text" size="20"></td>
+				</tr>
+				<tr>
+					<th align="left">성별</th>
+					<td><input type="radio" checked>남자 <input type="radio">여자</td>
+				</tr>
+				<tr>
+					<th align="left">생년월일</th>
+					<td><input type="text" size="6">년<input type="text"
+						size="4">월<input type="text" size="4">일<input
+						type="radio" checked>양력<input type="radio">음력</td>
+				</tr>
+				<tr>
+					<th align="left">휴대폰번호</th>
+					<td><input type="text" size="6" value="010"> - <input
+						type="text" size="6"> - <input type="text" size="6"><br />
+						* 상품 배송시 필요하므로 정확히 입력해 주세요.<br /> * SMS로 다양한 서비스를 받아보시겟습니가?<input
+						type="radio" checked>예<input type="radio">아니오</td>
+				</tr>
+				<tr>
+					<th align="left">이메일</th>
+					<td><input type="text" size="12">@<input type="text"
+						size="20"> <select>
+							<option>직접입력</option>
+							<option>naver.com</option>
+							<option>daum.net</option>
+					</select><br /> * 이메일로 다양한 서비스를 받아보시겠습니까?<input type="radio" checked>예<input
+						type="radio">아니오</td>
+				</tr>
+				<tr>
+					<th align="left" rowspan="3">주소</th>
+					<td><input type="text" size="6">우편번호</td>
+				</tr>
+				<tr>
+					<td><input type="text" size="30">시, 구, 동</td>
+				</tr>
+				<tr>
+					<td><input type="text" size="30">상세주소</td>
+				</tr>
+				<tr>
+					<th align="left">메모</th>
+					<td><textarea cols="80" rows="5"></textarea><br /> * 회원가입과
+						관련하여 전달하고 싶은 내용을 적어주세요.</td>
+				</tr>
+			</table>
+			<br /> <a href="iframe.html" target="if_a"><input type="button"
+				value="회원가입"></a>&nbsp;<input type="reset" value="다시작성">
+		</form>
+	</div>
+</body>
+</html>

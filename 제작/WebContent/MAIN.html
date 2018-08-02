@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>VISION COFFEE</title>
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#subMenu").hide();
+		$("#navi").mouseenter(function() {
+			$("#subMenu").slideDown("fast");
+		});
+		$("#navi").mouseleave(function() {
+			$("#subMenu").slideUp("fast");
+		});
+	});
+</script>
+<style>
+h6 {
+	color: gray;
+}
+</style>
+</head>
+<body>
+	<div align="right">
+		<iframe src="button.html" width="200" height="40" name="if_b"
+			frameborder="0" scrolling="no"> </iframe>
+	</div>
+	<header>
+		<div align="center">
+			<a href="iframe.html" target="if_a"><img src="./coffe/logo.jpg" /></a>
+		</div>
+	</header>
+	<nav id="navi">
+		<div style="background: #F4D188;" align="center">
+			<strong>Vision Coffee</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Menu</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<strong>Franchise</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Notice</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+		<div id="subMenu" align="center" style="background: #E8DCC9">
+			<Table width="420">
+				<tr>
+					<td><a href="brand.html" target="if_a"><img
+							src="./coffe/1.PNG"></a></td>
+					<td><a href="Menu.html" target="if_a"><img
+							src="./coffe/3.PNG"></a></td>
+					<td><a href="franchise.html" target="if_a"><img
+							src="./coffe/5.PNG"></a></td>
+					<td><a href="FAQ.html" target="if_a"><img
+							src="./coffe/7.PNG"></a></td>
+				</tr>
+				<tr>
+					<td><a href="promise.html" target="if_a"><img
+							src="./coffe/2.PNG"></a></td>
+					<td><a href="desert.html" target="if_a"><img
+							src="./coffe/4.PNG"></a></td>
+					<td><a href="fran1.html" target="if_a"><img
+							src="./coffe/6.PNG"></a></td>
+				</tr>
+			</Table>
+		</div>
+	</nav>
+	<div align="center">
+		<iframe src="iframe.html" width="100%" height="700" name="if_a"
+			frameborder="0"></iframe>
+	</div>
+	<footer>
+		<h6 align="center">
+			<hr />
+			(주)비젼커피 &nbsp;주소 : 대전광역시 중구 선화동 136-6 &nbsp; 전화번호 : 010-0000-0000<br />
+			이메일 : visioncoffee@naver.com &nbsp; 사업자등록번호 : 000-00-00000 &nbsp; 대표
+			: 박천기<br /> Copyright &copy; VISION COFFEE. CO., LTD. All rights
+			reserve.
+		</h6>
+	</footer>
+</body>
+</html>
